@@ -12,12 +12,14 @@ private:
     string name;
     int power_level;
     string model;
+    string favoriteFood;
 
 public:
-    Robot(string name,int power_level,string model);
+    Robot(string name,int power_level,string model,string favorite_Food);
     string getName();
     int getPowerLevel();
     string getModel();
+    string getFavoriteFood();
     virtual ~Robot();
 };
 
